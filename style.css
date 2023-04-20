@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 10px;
+}
+
+#logo{
+    height: 100px;
+    width: auto;
+}
+
+.awesome{
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.website{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+}
+
+#blue{
+    margin: 50px 0 50px 0;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#farm{
+    width: 200px;
+}
+
+.sign-up{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: #e5e7eb solid 1px;
+    max-width: 90px;
+    height: 25px;
+}
+
+#no-border{
+    border: none;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: "extra-bold";
+    color: #f9faf8;
+    margin: 0px;
+}
+
+#head-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+p{
+    margin: 0px;
+}
+
+.images, .quote{
+    margin: 0 50px 0 50px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: "extra-bold";
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.coffee{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+.bags{
+    max-width: 200px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: #e5e7eb;
+    color: #1F2937;
+}
+
+.action{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#blue{
+    background-color: #3882f6;
+    display: flex;
+}
+
+.writing{
+    display: flex;
+}
+
+
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
